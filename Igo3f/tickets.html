@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="./tickets.css">
+	<link rel="stylesheet" href="./keys.css">
+	<script type="text/javascript" src="./tickets.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<title>tickets | IGo 16T</title>
+	</head>
+	<body onload="start()">
+		<div id="iGO">
+			<div id="bracelet_ph">
+
+				<div id="keyboard">
+	        <div id="Nkeys">
+	          <img id="a" class="letter" src="../images/img_keyboard/a.png" onclick="printLeter(this)">
+	          <img id="b" class="letter" src="../images/img_keyboard/b.png" onclick="printLeter(this)">
+	          <img id="c" class="letter" src="../images/img_keyboard/c.png" onclick="printLeter(this)">
+	          <img id="d" class="letter" src="../images/img_keyboard/d.png" onclick="printLeter(this)">
+	          <img id="e" class="letter" src="../images/img_keyboard/e.png" onclick="printLeter(this)">
+	          <img id="f" class="letter" src="../images/img_keyboard/f.png" onclick="printLeter(this)">
+	          <img id="g" class="letter" src="../images/img_keyboard/g.png" onclick="printLeter(this)">
+	          <img id="h" class="letter" src="../images/img_keyboard/h.png" onclick="printLeter(this)">
+	          <img id="i" class="letter" src="../images/img_keyboard/i.png" onclick="printLeter(this)">
+	          <img id="j" class="letter" src="../images/img_keyboard/j.png" onclick="printLeter(this)">
+	          <img id="k" class="letter" src="../images/img_keyboard/k.png" onclick="printLeter(this)">
+	          <img id="l" class="letter" src="../images/img_keyboard/l.png" onclick="printLeter(this)">
+	          <img id="m" class="letter" src="../images/img_keyboard/m.png" onclick="printLeter(this)">
+	          <img id="n" class="letter" src="../images/img_keyboard/n.png" onclick="printLeter(this)">
+	          <img id="o" class="letter" src="../images/img_keyboard/o.png" onclick="printLeter(this)">
+	          <img id="p" class="letter" src="../images/img_keyboard/p.png" onclick="printLeter(this)">
+	          <img id="q" class="letter" src="../images/img_keyboard/q.png" onclick="printLeter(this)">
+	          <img id="r" class="letter" src="../images/img_keyboard/r.png" onclick="printLeter(this)">
+	          <img id="s" class="letter" src="../images/img_keyboard/s.png" onclick="printLeter(this)">
+	          <img id="t" class="letter" src="../images/img_keyboard/t.png" onclick="printLeter(this)">
+	          <img id="u" class="letter" src="../images/img_keyboard/u.png" onclick="printLeter(this)">
+	          <img id="w" class="letter" src="../images/img_keyboard/w.png" onclick="printLeter(this)">
+	          <img id="v" class="letter" src="../images/img_keyboard/v.png" onclick="printLeter(this)">
+	          <img id="x" class="letter" src="../images/img_keyboard/x.png" onclick="printLeter(this)">
+	          <img id="y" class="letter" src="../images/img_keyboard/y.png" onclick="printLeter(this)">
+	          <img id="z" class="letter" src="../images/img_keyboard/z.png" onclick="printLeter(this)">
+	          <img id="bs" src="../images/img_keyboard/bs.png" onclick="printLeter(this)">
+	          <img id="et" src="../images/img_keyboard/et.png" onclick="printLeter(this)">
+	          <img id="sb" src="../images/img_keyboard/sb.png" onclick="printLeter(this)">
+	        </div>
+	      </div>
+
+        <div id="bracelet_txt">
+					<h5>In the Tickets & Reservations it's possible to:</h5>
+          <ul>
+	          <h6> Search for a reservation or choose one from your list. <br>
+	            After choosing one, press it and you can see their details.<br>
+	            The tickets are organized chronologically.</h6>
+            <h6 id="Tinfo"></h6>
+          </ul>
+        </div>
+
+				<button id="close_keys" onclick="textClick()"></button>
+
+      </div>
+
+			<div id="watch_ph">
+					<img id="watch" src ="../images/watch.png">
+
+					<div id="bar">
+						<div id="date"></div>
+            <div id="time"></div>
+						<img id="pin" src="../images/pin_icon.png">
+						<img id="wifi" src="../images/wifi_icon.png">
+						<img id="battery" src="../images/battery_icon.png">
+					</div>
+
+					<div id="search_bar">
+						<img id="lupa" src="../images/lupa.png">
+						<form>
+							<input id="search_box" type="text" name="PESQUISAR" onclick="textClick()" readonly>
+						</form>
+
+						<div id="delete_search">
+							<img onclick="delete_search()" id="delete_search" src="../images/delete.png">
+						</div>
+					</div>
+
+					<div id="buttons">
+            <button id="help" onclick="helpClick()"></button>
+            <button id="undo" onclick="undoClick()"></button>
+            <button id="home" onclick="homeClick()"></button>
+          </div>
+
+					<div id="tickets_screen">
+						<div id="list">
+							<table id="table">
+							</table>
+							<!-- <h6 id="t1" class="ticket" onclick="display(this)" >Frankfurt - Berlin <br> 23/04 15:30</h6>
+							<h6 id="t2"class="ticket" onclick="display(this)" >Berlin Museum <br> 24/04 10:30</h6>
+							<h6 id="t3" class="ticket" onclick="display(this)" >Berlin restaurant <br> 24/04 12:30</h6> -->
+						</div>
+
+						<div id="confirm">
+                <h6 id="confirm_txt"></h6>
+                <button id="yes" onclick="yesClick()"> Yes</button>
+                <button id="no" onclick="noClick()"> No</button>
+            </div>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>

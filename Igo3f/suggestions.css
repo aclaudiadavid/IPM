@@ -1,0 +1,404 @@
+#iGO{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -85pt;
+  margin-left: -100pt;
+}
+
+#watch{
+  width: 200pt;
+  height: 200pt;
+}
+
+#bracelet_ph{
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: -1;
+  left:-200%;
+  width: 600pt;
+  height: 230pt;
+}
+
+#bracelet_txt{
+  margin-left: 2%;
+  color: black;
+  visibility: hidden;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#place-info {
+  visibility: hidden;
+}
+
+#place-img {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  width: 60pt;
+  height: 60pt;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#description {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttons-info {
+  position: absolute;
+  top: 83%;
+  left:21%;
+}
+
+#rate-txt {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.star {
+  position: absolute;
+  top: 35%;
+  height: 25pt;
+  width: 25pt;
+}
+
+#s1 {left: 0%}
+
+#s2 {left: 20%}
+
+#s3 {left: 40%}
+
+#s4 {left: 60%}
+
+#s5 {left: 80%}
+
+#rate{
+  position: absolute;
+  visibility: hidden;
+  z-index: 10;
+  top: 22%;
+  left: 22%;
+  height: 120pt;
+  width: 120pt;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.05px;
+  border-color: lightgrey;
+}
+
+#subbutton {
+  position: absolute;
+  visibility: inherit;
+  height: 10pt;
+  width: 30pt;
+  top: 80%;
+  left: 25%;
+  font-size: 7pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#exit-button {
+  position: absolute;
+  visibility: inherit;
+  height: 10pt;
+  width: 30pt;
+  top: 80%;
+  left: 52%;
+  font-size: 7pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#leavebutton {
+  position: absolute;
+  visibility: hidden;
+  height: 10pt;
+  width: 30pt;
+  top: 80%;
+  left: 38%;
+  font-size: 7pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#suggestions_screen{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 30.5%;
+  left: 16.5%;
+  border-style: solid;
+  height: 110pt;
+  width: 130pt;
+  overflow: auto;
+}
+
+#list{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 100pt;
+  width: 120pt;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1pt;
+}
+
+tbody {
+  display: block;
+  border-collapse: collapse;
+  overflow: auto;
+  max-width: 130pt;
+  margin-top: 0%;
+  border-spacing: 0%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+tr{
+  border-collapse: collapse;
+  margin-top: 0pt;
+  padding-top: 0%;
+  height: 20pt;
+}
+
+tr h6{
+  border-style: solid;
+  border-width: 1.5px;
+  margin-top: -10%;
+  height: 20pt;
+  width: 110pt;
+}
+
+#star{
+  position: absolute;
+  height: 10pt;
+  width: 10pt;
+}
+
+#confirm{
+  position: absolute;
+  visibility: hidden;
+  z-index: 10;
+  top: 5%;
+  left: 12%;
+  height: 100pt;
+  width: 100pt;
+  background-color: white;
+}
+
+#confirm_txt{
+  margin-top: 8pt;
+  margin-left: 2%;
+  color: black;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#yes{
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  color: red;
+}
+
+#no{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  color: green;
+}
+
+#keyboard{
+  position: absolute;
+  visibility: hidden;
+  top: 30pt;
+  left: 0pt;
+  width: 400pt;
+  height: 200pt;
+}
+
+#close_keys{
+  position: absolute;
+  visibility: hidden;
+  background-image: url(../images/quit_icon.png);
+  background-size: 27pt 27pt;
+  top: 0pt;
+  left: 0pt;
+  width: 30pt;
+  height: 30pt;
+}
+
+#date{
+  position: absolute;
+  top: 12%;
+  left: 17%;
+  height: 15pt;
+  color: black;
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+#time{
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  height: 15pt;
+  color: black;
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+#pin{
+  position: absolute;
+  top: 11.5%;
+  left: 60%;
+  width: 13pt;
+  height: 13pt;
+}
+
+#wifi{
+  position: absolute;
+  top: 10.5%;
+  left: 68%;
+  width: 14pt;
+  height: 17pt;
+}
+
+#battery{
+  position: absolute;
+  top: 10.5%;
+  left: 77%;
+  width: 14pt;
+  height: 18pt;
+}
+
+#lupa{
+  position: absolute;
+  top: 22%;
+  left: 17%;
+  width: 13pt;
+  height: 13pt;
+}
+
+#search_box{
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  width: 70pt;
+  height: 10pt;
+}
+
+#help{
+  background-color: whitesmoke;
+  background-image: url(../images/help_icon.png);
+  background-size:contain;
+  position: absolute;
+  top: 0%;
+  left: -15%;
+  width: 30pt;
+  height: 30pt;
+}
+
+#undo{
+  background-color: whitesmoke;
+  background-image: url(../images/undo_icon.png);
+  background-size: 25pt 25pt;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 98.5%;
+  left: 36%;
+  width: 30pt;
+  height: 30pt;
+}
+
+#home{
+  background-color: whitesmoke;
+  background-image: url(../images/home_icon.png);
+  background-size: 25pt 25pt;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:98.5%;
+  left: 50%;
+  width: 30pt;
+  height: 30pt;
+}
+
+#filter {
+  position: absolute;
+  width: 13pt;
+  height: 13pt;
+  cursor: pointer;
+}
+
+#filter-position{
+  position: absolute;
+  top: 16%;
+  left: 65%;
+  width: 13pt;
+  height: 13pt;
+}
+
+#filter-image{
+  position: relative;
+  width: 13pt;
+  height: 13pt;
+  cursor: pointer;
+}
+
+#notfilter {
+  position: absolute;
+  top: 22%;
+  left: 75%;
+  width: 13pt;
+  height: 13pt;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  top: 15%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 17pt;
+  right: -18.5pt;
+  box-shadow: 0pt 2pt 3pt 3pt rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select{
+  visibility: collapse;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-radius: 60%;
+  width: 5pt;
+  height: 5pt;
+}
+
+.show {display:block;}
+
+.dropdown-content p {
+  color: black;
+  text-decoration: none;
+  display: block;
+  min-width: 20pt;
+  margin: 0%;
+}

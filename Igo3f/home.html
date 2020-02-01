@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./home.css">
+  <script type="text/javascript" src="./home.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>iGO 16T</title>
+  </head>
+  <body onload="displayDate()">
+    <div id="iGO">
+      <div id="bracelet_ph">
+        <div id="bracelet_txt">
+          <h5>Click on one of the images on screen:</h5>
+          <ul>
+            <h6> Map with pointer(Maps) -> opens the map app;</h6>
+            <h6> Ticket(Tickets & Reservations) -> opens the folder app;</h6>
+            <h6> Thumbs up(Recommendations) -> opens the recommendations app;</h6>
+            <h6> Gears(Settings) -> opens the settings app;</h6>
+          </ul>
+        </div>
+      </div>
+
+      <div id="watch_ph">
+          <img id="watch" src ="../images/watch.png">
+
+          <div id="bar">
+            <div id="date"></div>
+            <div id="time"></div>
+            <img id="pin" src="../images/pin_icon.png">
+            <img id="wifi" src="../images/wifi_icon.png">
+            <img id="battery" src="../images/battery_icon.png">
+          </div>
+
+          <div id="screen_img">
+            <img id="maps_img" onclick="mapClick()" src="../images/map_icon.png">
+            <img id="folder_img" onclick="folderClick()" src="../images/folder_icon.png">
+            <img id="recomendations_img" onclick="suggestionsClick()" src="../images/recomendation_icon.png">
+            <img id="gear_img" src="../images/gear_icon.png">
+          </div>
+
+          <div id="screen_txt">
+            <h6 id="maps_txt">Maps</h6>
+            <h6 id="folder_txt">Tickets & <br>Reservations</h6>
+            <h6 id="recomendations_txt">Suggestions</h6>
+            <h6 id="gear_txt">Settings</h6>
+
+          </div>
+
+          <div id="buttons">
+            <button id="help" onclick="helpClick()"></button>
+            <button id="undo" onclick="undoClick()"></button>
+            <button id="home"></button>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>
